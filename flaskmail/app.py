@@ -1,8 +1,9 @@
 from flask import Flask, request, render_template, url_for,redirect
 from flask_mail import Mail, Message
 
-
+#creating object of Flask class
 app = Flask(__name__)
+
 #app.config to be updated with your username and password
 app.config.update(
 	DEBUG=True,
